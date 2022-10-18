@@ -17,19 +17,19 @@ public class Investment {
 
         System.out.printf("\n%.2f reais com %.2f%% de juros ao mês por %d meses \n\n", initialValue, interestPerMonth, months);
 
-        var accumulator = initialValue;
+        var amount = initialValue;
         var interestBalance = BigDecimal.valueOf(0.0);
 
         for (int i = 1; i <= months ; i++) {
-            interestBalance = calculateInterestBalance(interestPerMonth, accumulator);
-            accumulator = accumulator.add(interestBalance);
+            interestBalance = calculateInterestBalance(interestPerMonth, amount);
+            amount = amount.add(interestBalance);
 
-            System.out.printf("Mês %d: Juros: %.2f, saldo: %.2f \n", i, interestBalance, accumulator);
+            System.out.printf("Mês %d: Juros: %.2f, saldo: %.2f \n", i, interestBalance, amount);
         }
 
     }
 
-    private static BigDecimal calculateInterestBalance(double interestPerMonth, BigDecimal accumulator) {
-        return accumulator.multiply(BigDecimal.valueOf(interestPerMonth / 100));
+    private static BigDecimal calculateInterestBalance(double interestPerMonth, BigDecimal amount) {
+        return amount.multiply(BigDecimal.valueOf(interestPerMonth / 100));
     }
 }
