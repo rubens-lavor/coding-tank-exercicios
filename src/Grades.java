@@ -27,6 +27,8 @@ public class Grades {
         System.out.println("A maior nota é: " + list.get(n - 1));
         System.out.println("A média das notas é: " + media);
 
+        sc.close();
+
     }
 
     private static ArrayList<Integer> getOrderedGrades(int[] grades) {

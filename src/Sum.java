@@ -17,5 +17,7 @@ public class Sum {
         }
 
         System.out.println(acc);
+
+        sc.close();
     }
 }

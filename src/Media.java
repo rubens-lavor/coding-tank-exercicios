@@ -31,6 +31,8 @@ public class Media {
             grades[n -1] = grade;
             n++;
         }
+
+        sc.close();
     }
 
     private static double getMedia(double[] grades) {

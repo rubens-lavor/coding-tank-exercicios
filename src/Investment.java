@@ -27,6 +27,8 @@ public class Investment {
             System.out.printf("Mês %d: Juros: %.2f, saldo: %.2f \n", i, interestBalance, amount);
         }
 
+        sc.close();
+
     }
 
     private static BigDecimal calculateInterestBalance(double interestPerMonth, BigDecimal amount) {

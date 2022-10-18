@@ -10,6 +10,7 @@ public class MathOperations {
         var operation = sc.nextLine();
         if (!operation.matches("[-+*/]")) {
             System.out.println("Operação desconhecida");
+            sc.close();
             return;
         }
 
@@ -36,5 +37,7 @@ public class MathOperations {
         if ("/".equals(operation)) {
             System.out.printf("Divisão: %.2f", (double) value1 / value2);
         }
+
+        sc.close();
     }
 }

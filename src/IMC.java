@@ -17,6 +17,8 @@ public class IMC {
 
         System.out.printf("O valor do seu IMC é %.2f", imc);
 
+        sc.close();
+
 
     }
 

@@ -13,6 +13,7 @@ public class SumArgs {
             value2 = Double.parseDouble(args[1]);
 
             sum(value1, value2);
+            sc.close();
             return;
         }
 
@@ -24,6 +25,7 @@ public class SumArgs {
             sc.nextLine();
 
             sum(value1, value2);
+            sc.close();
             return;
         }
 
@@ -36,6 +38,8 @@ public class SumArgs {
         sc.nextLine();
 
         sum(value1, value2);
+
+        sc.close();
     }
 
     static private void sum (double value1, double value2) {
