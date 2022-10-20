@@ -1,6 +1,6 @@
 ## Exercícios propostos coding tank Ada
 
-Questão #1
+## Questão #1 - IMC
 
 Enunciado
 Crie um programa que pergunte qual a altura em metros e peso em Kg desta pessoa e retorne o IMC e a classificação deste IMC.
@@ -19,7 +19,7 @@ O valor do seu IMC é 20 (considerado Peso normal)
 
 ---
 
-Questão #2
+## Questão #2 - Média das notas
 
 Enunciado
 Faça um programa que receba as quatro notas de 0 a 10 de um aluno e informe a média das notas. Caso receba notas maiores que 10 ou menores que zero é para retornar uma mensagem informando que valor é inválido e encerrar o programa.
@@ -38,7 +38,7 @@ A média do aluno foi 7.5
 
 ---
 
-Questão #3
+## Questão #3 - Graus Celsius em Fahrenheit
 
 Enunciado
 Criar uma função que transforma o valor de uma temperatura em graus celsius em fahrenheit seguindo a fórmula abaixo:
@@ -67,7 +67,7 @@ Criar uma classe com uma função main que vai receber um número via argumentos
 
 ---
 
-Questão #5
+## Questão #5 - args
 
 Enunciado
 Criar um programa que recebe 2 números e realiza a soma deles. Porém, nesse caso o programa deve verificar quantos parâmetros são enviados como argumento do método main(args).
@@ -78,7 +78,7 @@ No caso de qualquer outra quantidade. Deve apresentar uma mensagem de erro falan
 
 ---
 
-Questão #6
+## Questão #6 - Operação matemática
 
 Enunciado
 Realizar uma operação matemática, que deve ser passada via input do usuário ( opções: + - / * ) entre dois números inteiros que também devem ser solicitados via System.in. Caso a operação seja desconhecida exibir uma mensagem "Operação desconhecida" e encerrar o programa.
@@ -91,7 +91,7 @@ Informe o segundo número.
 
 ---
 
-Questão #7
+## Questão #7 - Aplicação de investimentos
 
 Enunciado
 Pergunte para a usuária o valor que será investido em uma aplicação, a taxa de juros ao mês e o tempo que o dinheiro ficará aplicado.
@@ -124,7 +124,7 @@ Ex: se o número digitado for 5, a conta a ser realizada será 5 + 4 + 3 + 2 + 1
 
 ---
 
-Questão #9
+## Questão #9 - Média, a maior e a menor nota.
 
 Enunciado
 Faça um programa que peça para o usuário quantas provas eles fez, depois pergunte para ele a nota inteira, de 0 a 100, de cada prova, e retorne a média, a maior nota e a menor nota entre as provas informadas. Exemplo:
@@ -147,7 +147,7 @@ A média das notas é: 71
 
 ---
 
-Questão #10
+## Questão #10 - Tabela Price.
 
 Enunciado
 Vamos implementar uma Tabela Price.
@@ -185,3 +185,5 @@ Parcela 3 | Juros: R$ 380.47 | Amortização: R$ 2369.93 |  Saldo devedor: R$ 22
 Parcela 11 | Juros: R$ 80.69 | Amortização: R$ 2669.71 | Saldo devedor: R$ 5379.46
 Parcela 12 | Juros: R$ 40.65 | Amortização: R$ 2709.75 | Saldo devedor: R$ 0
 Total: Prestação R$ 33004.80, Juros R$ 3004.80, Amortização R$ 30000.00
+
+[**Resolução da questão**](src/Price.java)
