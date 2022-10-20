@@ -1,4 +1,4 @@
-## Exercícios propostos coding tank Ada
+# Exercícios propostos coding tank Ada
 
 ## Questão #1 - IMC
 
@@ -16,6 +16,8 @@ Informe sua altura em metros?
 Informe seu peso em Kg?
 72,2
 O valor do seu IMC é 20 (considerado Peso normal)
+
+[**Resolução da questão**](src/IMC.java)
 
 ---
 
@@ -35,6 +37,8 @@ Informe a nota prova 3:
 Informe a nota prova 4:
 5
 A média do aluno foi 7.5
+
+[**Resolução da questão**](src/Media.java)
 
 ---
 
@@ -58,16 +62,20 @@ Exemplo:
 Temperatura 1 XºC são YºF
 Temperatura 2 ZºC são WºF
 
+[**Resolução da questão**](src/CelsiusToFahrenheit.java)
+
 ---
 
-Questão #4
+## Questão #4 - args
 
 Enunciado
 Criar uma classe com uma função main que vai receber um número via argumentos do programa (args) e dizer se esse número é par ou impar. Caso tenha recebido mais ou menos de um argumento retornar mensagem "Número inválido de argumentos, é esperado que seja informado um argumento".
 
+[**Resolução da questão**](src/Args.java)
+
 ---
 
-## Questão #5 - args
+## Questão #5 - args (soma)
 
 Enunciado
 Criar um programa que recebe 2 números e realiza a soma deles. Porém, nesse caso o programa deve verificar quantos parâmetros são enviados como argumento do método main(args).
@@ -76,9 +84,11 @@ Se for nenhum, deve pedir via System.in que o usuário digite 2 números. No cas
 
 No caso de qualquer outra quantidade. Deve apresentar uma mensagem de erro falando que a quantidade é inválida.
 
+[**Resolução da questão**](src/SumArgs.java)
+
 ---
 
-## Questão #6 - Operação matemática
+## Questão #6 - Operações matemáticas
 
 Enunciado
 Realizar uma operação matemática, que deve ser passada via input do usuário ( opções: + - / * ) entre dois números inteiros que também devem ser solicitados via System.in. Caso a operação seja desconhecida exibir uma mensagem "Operação desconhecida" e encerrar o programa.
@@ -88,6 +98,8 @@ Exemplo:
 Qual operação deseja fazer? ( opções: + - / * )
 Informe o primeiro número.
 Informe o segundo número.
+
+[**Resolução da questão**](src/MathOperations.java)
 
 ---
 
@@ -113,14 +125,18 @@ Mês 1: Juros: R$ 500.0 , saldo: 10500.0
 Mês 2: Juros: R$ 525.0 , saldo: 11025.0 
 Mês 3: Juros: RS 551.25 , saldo: 11576.25 
 
+[**Resolução da questão**](src/Investment.java)
+
 ---
 
-Questão #8
+## Questão #8 - Somatório
 
 Enunciado
 Faça um programa que pede para a usuária digitar um número inteiro positivo. Seu programa deverá responder a soma de do número com todos os seus antecessores positivos.
 
 Ex: se o número digitado for 5, a conta a ser realizada será 5 + 4 + 3 + 2 + 1, e o resultado na tela será "15".
+
+[**Resolução da questão**](src/Sum.java)
 
 ---
 
@@ -144,6 +160,8 @@ Informe a nota da prova 5:
 A menor nota é: 50
 A maior nota é: 90
 A média das notas é: 71
+
+[**Resolução da questão**](src/Grades.java)
 
 ---
 
